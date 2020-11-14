@@ -27,7 +27,7 @@ form {
     padding: 10px;
 }
             
-img {
+#headshot {
     max-height: 500px;
      margin: 20px;
 }
@@ -36,3 +36,4 @@ p {
     font-size: 30px;
     line-height: 45px;
 }
+
