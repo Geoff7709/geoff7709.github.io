@@ -37,3 +37,8 @@ p {
     line-height: 45px;
 }
 
+.stretchColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
