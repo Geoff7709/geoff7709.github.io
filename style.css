@@ -1,4 +1,4 @@
-
+/* Header styles to modify bootstrap */
 .textColor {
     color: wheat;
 }
@@ -19,30 +19,31 @@
 .textRed {
     color: darkred;
 }
-
+/* Adjustments to the Contact Sheet */
 form {
     margin: 10px;
     border: 5px solid black;
     border-radius: 4px;
     padding: 10px;
 }
-            
+/* Parameters set for headshot in Bio */
 #headshot {
     max-height: 500px;
-     margin: 20px;
+    margin: 20px;
 }
+/* Adjustments to placeholder text in Bio */
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     line-height: 45px;
 }
-
+/* Adjustments to fit second column in portfolio placeholder images */
 .stretchColumn {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
+/* Allows h-tags to conform on extra-small screens */
 @media (max-width: 403px) {
     h1, h2 {
         white-space: normal;

@@ -8,37 +8,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar sticky-top" id="navGreen">
-    <span class="navbar-brand mb-0 h1"><h1 class="textColor">Geoffrey Zimmerman</h1></span>
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active textColor" href="portfolio.html"><h3>Portfolio</h3></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link textColor" href="contact.html"><h2>Contact</h2></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link textColor" href="index.html"><h3>About</h3></a>
-      </li>
-    </ul>
-  </nav>
+  <header>
+    <nav class="navbar sticky-top" id="navGreen">
+      <span class="navbar-brand mb-0 h1"><h1 class="textColor">Geoffrey Zimmerman</h1></span>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active textColor" href="portfolio.html"><h3>Portfolio</h3></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textColor" href="contact.html"><h2>Contact</h2></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textColor" href="index.html"><h3>About</h3></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
   
   <form id="contact-form" class="container">
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="name">Name *</label>
-          <input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Last" required>
-        </div>
-        <div class="form-group col-md-6">
-          <label for="email">Email *</label>
-          <input type="email" name="email" class="form-control" id="email" placeholder="e.g. something@somewhere.com" required>
-        </div>
-      </div> <!-- form-row-->
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="company_name">Company name</label>
-          <input type="text" name="company_name" class="form-control" id="company_name" placeholder="e.g. Acme Enterprises">
-        </div> 
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="name">Name *</label>
+        <input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Last" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="email">Email *</label>
+        <input type="email" name="email" class="form-control" id="email" placeholder="e.g. something@somewhere.com" required>
+      </div>
+    </div> <!-- form-row-->
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="company_name">Company name</label>
+        <input type="text" name="company_name" class="form-control" id="company_name" placeholder="e.g. Acme Enterprises">
+      </div> 
               <!-- <div class="form-group col-md-6">
                 <label for="service">Select service *</label>
                 <select class="custom-select" name="service" id="service"     aria-describedby="service_help" required>
@@ -52,12 +54,14 @@
                 If the service you require is not listed please select "Other" and provide any relevent information in the "Comments" field.
                 </small>
               </div> -->
-      </div> <!-- form-row-->
-      <div class="form-row">
-        <div class="form-group col">
-          <label for="comments">Comments</label>
-          <textarea class="form-control bg-white" name="comments" id="comments" rows="3"></textarea>
-        </div>
+    </div> <!-- form-row-->
+     <div class="form-row">
+      <div class="form-group col">
+        <label for="comments">Comments</label>
+        <textarea class="form-control bg-white" name="comments" id="comments" rows="3"></textarea>
+      </div>
+
+      <!-- I don't know the following div does it, but the button changes sides if it's commented out -->
       </div>
             <!-- <div class="form-row">
               <div class="form-group col">
@@ -67,7 +71,7 @@
               </div>
             </div> -->
           <!-- </div> -->
-      <button type="submit" class="btn btn-success">Submit</button>
+    <button type="submit" class="btn btn-success">Submit</button>
   </form>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
