@@ -42,3 +42,9 @@ p {
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media (max-width: 403px) {
+    h1, h2 {
+        white-space: normal;
+    }
+}
