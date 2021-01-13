@@ -29,7 +29,7 @@ form {
 /* Parameters set for headshot in Bio */
 #headshot {
     max-height: 500px;
-    margin: 20px;
+    width: 375px;
 }
 /* Adjustments to placeholder text in Bio */
 p, strong {
