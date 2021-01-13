@@ -1,9 +1,9 @@
 # Portfoloio Project
 
 ## Objectives:
-The purpous of this project is to begin mapping out the perameters of a GitHub portfolio page. At this point in my career, I have very limited experience in coding and absolutely no professional credentials. The end result, however, will be a full-fledged portfolio and resume page with a completely active and usable contact page.In short, the model followed opens on a biography page with headshot and placeholder text:
+The purpous of this project is to begin mapping out the perameters of a GitHub portfolio page. At this point in my career, I have very limited experience in coding and absolutely no professional credentials. The end result, however, will be a full-fledged portfolio and resume page with a completely active and usable contact page.In short, the model followed opens on a biography page with headshot and bio:
 ![GitHub Bio](Images/gitBio.png)
-The placeholder text will be replaced with a formated resume as more skills are learned. It's included presently mainly to demonstrate the utility of the page.
+This page contains a brief mission statement that highlights the subject's skills and intagible attributes along with a headshot and links to Github, LinkedIn and a downloadable resume.
 
 Next is the portfolio page:
 ![GitHub Portfolio](Images/gitPortfolio.png)
@@ -18,10 +18,10 @@ This contact was based on a form found on the web. The link with the base code i
 ## Resources
 
 Below I have incuded direct links for all of the photos used on the page for easier viewing:
-* [Geoffrey Zimmerman](Images/GeoffZ.JPG)
-* [European Dragon](Images/European-Dragon1.jpg)
-* [Black Dragon](Images/Black-Dragon.jfif)
-* [Blue Dragon](Images/Blue-Dragon.jpg)
-* [Gold Dragon](Images/Gold-Dragon.jpg)
-* [Red Dragon](Images/Red-Dragon.jpg)
-* [Silver Dragon](Images/Silver-Dragon.jpg)
+* [Geoffrey Zimmerman](Images\GeoffZ.JPG)
+* [Corona Showdown gif](Images\corona_showdown.gif)
+* [Corona Modal](Images\dif_states_modal.png)
+* [Corona Modal 2](Images\winning_modal.png)
+* [Corona State Cards](Images\state_cards.png)
+* [Weather Dashboard](Images\weather_dash.png)
+* [Day Planner](Images\day_planner.png)
