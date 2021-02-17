@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-    $("#imgAnimate").hover(
+    $("#imgAnimate1").hover(
         function()
         {
             $(this).attr("src", "Images/corona_showdown.gif");
@@ -9,4 +9,13 @@ $(document).ready(function()
         {
             $(this).attr("src", "Images/corona_still.png");
         });
+        $("#imgAnimate2").hover(
+            function()
+            {
+                $(this).attr("src", "Images/eatDaBurger.gif");
+            },
+            function()
+            {
+                $(this).attr("src", "Images/eatDaburgerStart.png");
+            });
 });
