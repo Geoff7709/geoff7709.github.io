@@ -14,6 +14,7 @@ const onSubmit = (e) => {
             console.error(error)
             alert('An error occured, please try again.', error.text)
         })
+    e.target.reset()
 }
 
 function Contact() {
