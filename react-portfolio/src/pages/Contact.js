@@ -1,35 +1,36 @@
 import React from 'react'
-import emailjs from 'emailjs-com'
-const emailJsId = process.env.REACT_APP_EMAILJS_USED_ID
+import emailjs, { init } from 'emailjs-com'
+const emailJsId = process.env.REACT_APP_EMAILJS_USER_ID
 const emailJsTemplate = process.env.REACT_APP_EMAILJS_TEMPLATE_ID
-
+const service = process.env.REACT_APP_EMAILJS_SERVICE_ID
+init(emailJsId)
 const onSubmit = (e) => {
     e.preventDefault()
-    console.log(e.target)
-    emailjs.sendForm(emailjs.default_service, emailJsTemplate, e.target, emailJsId)
-    .then(result => {
-        alert('Message sent. I will respond to you as soon as possible.', result.text)
-    },
-    error => {
-        alert('An error occured, please try again.', error.text)
-    })
+    emailjs.sendForm(service, emailJsTemplate, e.target, emailJsId)
+        .then(result => {
+            alert('Message sent. I will respond to you as soon as possible.', result.text)
+        })
+        .catch(error => {
+            console.error(error)
+            alert('An error occured, please try again.', error.text)
+        })
 }
 
 function Contact() {
+
     return (
-    <form className='form' onSubmit={onSubmit} >
-        <h2>Contact</h2>
-        <p>Your Name:</p>
-        <input name='name' type='text' placeholder='name' className='form_input'/>
-        <p>Email:</p>
-        <input name='email' type='text' placeholder='your email' className='form_input'/>
-        <p>Subject:</p>
-        <input name='subject' type='text' placeholder='subject' className='form_input'/>
-        <p>Your Message:</p>
-        <textarea name='message' type='text' placeholder='Your Message' className='form__input-message' ></textarea>
-        <button>Send Message</button>
-    </form>
+        <form className="contact-form" onSubmit={onSubmit}>
+            <input type="hidden" name="contact_number" />
+            <label>Name</label>
+            <input type="text" name="user_name" />
+            <label>Email</label>
+            <input type="email" name="user_email" />
+            <label>Message</label>
+            <textarea name="message" />
+            <input type="submit" value="Send" />
+        </form>
     )
+
 }
 
 export default Contact
