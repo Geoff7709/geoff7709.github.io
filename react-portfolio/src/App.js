@@ -8,7 +8,7 @@ import Footer from './components/footer'
 
 function App() {
   return (
-    <>
+    <div className='container'>
       <Header />
       <Switch>
         <Route path='/contact' component={Contact} />
@@ -19,7 +19,8 @@ function App() {
 
       </Switch>
       <Footer/>
-    </>
+      </div>
+    
   );
 }
 
