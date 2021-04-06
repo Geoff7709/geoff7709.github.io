@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/static/js/main.800f04ad.chunk.js",
+    "main.js.map": "/static/js/main.800f04ad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0f9b4241.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0f9b4241.js.map",
+    "static/js/2.195c349b.chunk.js": "/static/js/2.195c349b.chunk.js",
+    "static/js/2.195c349b.chunk.js.map": "/static/js/2.195c349b.chunk.js.map",
+    "static/js/3.716701e5.chunk.js": "/static/js/3.716701e5.chunk.js",
+    "static/js/3.716701e5.chunk.js.map": "/static/js/3.716701e5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.195c349b.chunk.js.LICENSE.txt": "/static/js/2.195c349b.chunk.js.LICENSE.txt",
+    "static/media/GeoffZ.6503e391.JPG": "/static/media/GeoffZ.6503e391.JPG",
+    "static/media/budgetTracker.8faf3993.gif": "/static/media/budgetTracker.8faf3993.gif",
+    "static/media/corona_showdown.8aa4995c.gif": "/static/media/corona_showdown.8aa4995c.gif",
+    "static/media/day_planner.b38bd233.png": "/static/media/day_planner.b38bd233.png",
+    "static/media/eatDaBurger.27268f9b.gif": "/static/media/eatDaBurger.27268f9b.gif",
+    "static/media/jeopardyTrivia.3a2b1657.gif": "/static/media/jeopardyTrivia.3a2b1657.gif",
+    "static/media/weather_dash.8241a638.png": "/static/media/weather_dash.8241a638.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f9b4241.js",
+    "static/js/2.195c349b.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.800f04ad.chunk.js"
+  ]
+}
