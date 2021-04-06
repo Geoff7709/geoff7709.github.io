@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const Img = styled.img`
     max-height: 500px;
     width: 375px; `
-
+console.log(GeoffZ)
 function About() {
     return (
         <div className="container">

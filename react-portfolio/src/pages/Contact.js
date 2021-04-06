@@ -20,15 +20,32 @@ const onSubmit = (e) => {
 function Contact() {
 
     return (
-        <form className="contact-form" onSubmit={onSubmit}>
-            <input type="hidden" name="contact_number" />
-            <label>Name</label>
-            <input type="text" name="user_name" />
-            <label>Email</label>
-            <input type="email" name="user_email" />
-            <label>Message</label>
-            <textarea name="message" />
-            <input type="submit" value="Send" />
+        <form id="contact-form" className="container" onSubmit={onSubmit}>
+            <div className="form-row">
+                <div className="form-group col-md-6">
+                    <input type="hidden" name="contact_number" />
+                    <label for="name">Name *</label>
+                    <input type="text" name="user_name" className="form-control" id="first_name" placeholder="First Last" required />
+                </div>
+                <div className="form-group col-md-6">
+                    <label for="email">Email *</label>
+                    <input type="email" name="user_email" className="form-control" id="email" placeholder="e.g. something@somewhere.com" required />
+                </div>
+            </div>
+            <div className="form-row">
+                <div className="form-group col-md-6">
+                    <label for="company_name">Company name</label>
+                    <input type="text" name="company_name" className="form-control" id="company_name" placeholder="e.g. Acme Enterprises" />
+                </div>
+            </div>
+            <div className="form-row">
+                <div className="form-group col">
+                    <label for="comments">Message</label>
+                    <textarea className="form-control bg-white" name="message" id="comments" rows="3"></textarea>
+                </div>
+            </div>
+
+            <button type="submit" className="btn btn-success">Submit</button>
         </form>
     )
 
