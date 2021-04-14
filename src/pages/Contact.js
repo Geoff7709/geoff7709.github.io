@@ -8,7 +8,7 @@ const onSubmit = (e) => {
     e.preventDefault()
     emailjs.sendForm(service, emailJsTemplate, e.target, emailJsId)
         .then(result => {
-            alert('Message sent. I will respond to you as soon as possible.', result.text)
+            alert('Message sent. I will respond to you as soon as possible.', e.result.text)
         })
         .catch(error => {
             console.error(error)

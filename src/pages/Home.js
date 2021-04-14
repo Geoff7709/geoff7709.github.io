@@ -6,6 +6,7 @@ import corona_showdown from '../images/corona_showdown.gif'
 import weather_dash from '../images/weather_dash.png'
 import day_planner from '../images/day_planner.png'
 import budgetTracker from '../images/budgetTracker.gif'
+import googleBook from '../images/googleBook.gif'
 const projects = [
     {
         id: 1,
@@ -52,6 +53,17 @@ const projects = [
         deployed: 'https://warm-depths-45507.herokuapp.com/'
     },
     {
+        id: 7,
+        title: 'Google Book Search',
+        image: {
+            src: googleBook,
+            alt: 'Book Search App'
+        },
+        description: 'Google Book Search is a full MERN stack application using Google Book API and MongoDB to search and save results.',
+        gitHub: 'https://github.com/Geoff7709/google_book_search',
+        deployed: 'https://thawing-castle-75901.herokuapp.com/'
+    },
+    {
         id: 5,
         title: 'Weather Dashboard',
         image: {
@@ -73,6 +85,7 @@ const projects = [
         gitHub: 'https://github.com/Geoff7709/day-planner',
         deployed: 'https://geoff7709.github.io/day-planner/'
     },
+    
 
 ]
 function Home() {
