@@ -7,7 +7,19 @@ import weather_dash from '../images/weather_dash.png'
 import day_planner from '../images/day_planner.png'
 import budgetTracker from '../images/budgetTracker.gif'
 import googleBook from '../images/googleBook.gif'
+import morningCupOfJavaScript from '../images/morning-cup-of-javascript-img.png'
 const projects = [
+    {
+        id: 8,
+        title: 'Morning Cup of JavaScript',
+        image: {
+            src: morningCupOfJavaScript ,
+            alt: 'Application PNG'
+        },
+        description: 'A full stack MERN application that caters to the JavaScript enthusiasts who are looking for an all-in-one website. Users have access to tech news, coding challenges, and a project inspiration generator.',
+        gitHub: 'https://github.com/Oliviapark113/morning_cup_of_javascript',
+        deployed: 'https://secure-wave-92624.herokuapp.com/'
+    },
     {
         id: 1,
         title: 'Jeopardy Challenge',
@@ -18,6 +30,17 @@ const projects = [
         description: 'Jeopardy Trivia is a full stack application utilizing Passport for user authentication, Sequelize with MySQL, Express, Express-Handlebars, and JAWSDB with Heroku.',
         gitHub: 'https://github.com/Geoff7709/jeopardy_trivia_game',
         deployed: 'https://shielded-fjord-19309.herokuapp.com/'
+    },
+    {
+        id: 7,
+        title: 'Google Book Search',
+        image: {
+            src: googleBook,
+            alt: 'Book Search App'
+        },
+        description: 'Google Book Search is a full MERN stack application using Google Book API and MongoDB to search and save results.',
+        gitHub: 'https://github.com/Geoff7709/google_book_search',
+        deployed: 'https://thawing-castle-75901.herokuapp.com/'
     },
     {
         id: 2,
@@ -51,17 +74,6 @@ const projects = [
         description: 'This is a budget tracking application that can save submitted transactions while offline to be stored and downloaded when the application regains connectivity.',
         gitHub: 'https://github.com/Geoff7709/indexedDb_budget_trkr',
         deployed: 'https://warm-depths-45507.herokuapp.com/'
-    },
-    {
-        id: 7,
-        title: 'Google Book Search',
-        image: {
-            src: googleBook,
-            alt: 'Book Search App'
-        },
-        description: 'Google Book Search is a full MERN stack application using Google Book API and MongoDB to search and save results.',
-        gitHub: 'https://github.com/Geoff7709/google_book_search',
-        deployed: 'https://thawing-castle-75901.herokuapp.com/'
     },
     {
         id: 5,

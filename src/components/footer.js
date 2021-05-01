@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+
 const styledFooter = styled.footer`
 background-color: blue`
 
@@ -22,6 +23,8 @@ function Footer() {
                             <Link className="nav-link textColor" to="/about"><h3>About</h3></Link>
                         </li>
                     </ul>
+                    <br/>
+                    <p style={{color: 'white'}}>Contact Me Directly: geoffzimmerman23@gmail.com</p>
                 </styledFooter>
             </div>
         </div>
