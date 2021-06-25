@@ -11,16 +11,18 @@
 
   [Questions](#questions)
 
-  [Lisence](#lisence)
+  [License](#license)
 
 
 ## Description
 
-The Google Book Search is a full stack MERN application utilizing the Google Book API to search queries and mongoose to store selections server side for future reference.
+This is a portfolio of projects for Geoffrey Zimmerman, as well as means to contact and a bio page, so you can get to know this web developer a little more.
 ## Usage
 
 Navigate to the [deployed website](https://geoff7709.github.io/) and follow the prompts in the app:
-![usage video](./gbs_images/book_search.gif)
+![app screenshot 1](./portfolio_images/portfolio.png)
+![app screenshot 2](./portfolio_images/contact.png)
+![app screenshot 3](./portfolio_images/about.png)
 
 ## Technologies
 
@@ -37,7 +39,7 @@ This application utilizes:
   For further questions please feel free to email the developers:
 
   geoffzimmerman23@gmail.com
-  ## Lisence
+  ## License
   Use of this software is regulated under the following lisence:
 
   [MIT](https://opensource.org/licenses/MIT)
